@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <script src="dashboard.js" defer></script>
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="chartadd">
+            <div class="addbtn">
+                <p class="addtext">Add Chart</p>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <div class="main">
+            <div class="box1">
+                <p class="boxtext1">Completed Tasks</p>
+                <p class="boxtext2">0</p>
+                <p class="boxtext3">Filter</p>
+            </div>
+            <div class="box1">
+                <p class="boxtext1">Incompleted Tasks</p>
+                <p class="boxtext2">0</p>
+                <p class="boxtext3">Filter</p>
+            </div>
+            <div class="box1">
+                <p class="boxtext1">Overdue Tasks</p>
+                <p class="boxtext2">0</p>
+                <p class="boxtext3">Filter</p>
+            </div>
+            <div class="box1">
+                <p class="boxtext1">Total Tasks</p>
+                <p class="boxtext2">0</p>
+                <p class="boxtext3">Filter</p>
+            </div>
+        </div>
+        <div class="charts">
+            <div class="chart1">
+                <canvas id="barChart"></canvas>
+            </div>
+            <div class="chart1">
+                <canvas id="doughnutchart"></canvas>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
